@@ -1,0 +1,80 @@
+img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    background-color: #666;
+    background-color: white;
+}
+img:hover{
+    transition: all 1.0s ease-in-out;
+    filter: grayscale(20%);
+    transform: scale(1.1);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: initial;
+    text-decoration: underline;
+    
+}
+a:link{
+    color: burlywood;
+}
+a:visited{
+    color: burlywood;
+}
+a:hover{
+    color: green;
+    
+}
+body{
+    background-image: url("https://i.imgur.com/fWlpwm7.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 4px;
+    color: white;
+}
+.ipari{
+    text-align: center;
+}
+.szak{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.felso{
+    margin-top: -60px;
+}
+.jelkep{
+    text-align: center;
+    border-radius: 50%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+.kep{
+    text-align: left;
+}
+.kep2{
+   text-align: right;
+}
+footer{
+    text-align: right;
+    margin-top: +110px;
+    color: black;
+}
+.velemeny{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: initial;
+    color: orange;
+    font-size: 20px;
+    background-color: white;
+}
